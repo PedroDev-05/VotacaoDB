@@ -22,7 +22,7 @@ Conforme o enunciado proposto pelo Professor Gabriel M. de Carvalho, o sistema a
 
 Para uma melhor visualização,segue abaixo o DER contendo a modelagem conceitual e lógica dos Dados.
 
-<img width="969" height="787" alt="image" src="https://github.com/user-attachments/assets/65de8b37-2370-4337-a1d2-e1161a7724bb" />
+<img width="1021" height="780" alt="image" src="https://github.com/user-attachments/assets/faa6d183-a756-4a64-877a-c12ea383f425" />
 
 ---
 
