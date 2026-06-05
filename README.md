@@ -144,6 +144,14 @@ GROUP BY c.id_candidato, c.nome, c.numero
 ORDER BY total_votos DESC;
 ```
 
+<img width="1918" height="959" alt="image" src="https://github.com/user-attachments/assets/316f8892-7fcc-4909-bb86-f2c7715accb9" />
+
+<img width="1880" height="960" alt="image" src="https://github.com/user-attachments/assets/c1048710-8bb5-439a-bfac-ce791285ff65" />
+
+<img width="1876" height="958" alt="image" src="https://github.com/user-attachments/assets/2c9a5506-4a49-4318-9b7c-575276e44911" />
+
+<img width="1874" height="954" alt="image" src="https://github.com/user-attachments/assets/84294031-5f29-41a5-acf6-980f6363022b" />
+
 ---
 
 Como a sintaxe das linguagens diferem entre **MariaDB** e **Supabase**, precisei realizar algumas mudanças no código.
