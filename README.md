@@ -24,6 +24,13 @@ Para uma melhor visualização,segue abaixo o DER contendo a modelagem conceitua
 
 <img width="1021" height="780" alt="image" src="https://github.com/user-attachments/assets/faa6d183-a756-4a64-877a-c12ea383f425" />
 
+<img width="1873" height="959" alt="image" src="https://github.com/user-attachments/assets/c891eeac-b59e-428c-9c89-a1880c06ea79" />
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Banco de Dados de Origem:** MariaDB
+* **Banco de Dados Adaptado:** Supabase (PostgreSQL)
+
 ---
 
 ### Criação das Tabelas e Inserção de Dados
