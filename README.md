@@ -162,3 +162,59 @@ ORDER BY total_votos DESC;
 ---
 
 Como a sintaxe das linguagens diferem entre **MariaDB** e **Supabase**, precisei realizar algumas mudanças no código.
+
+## CRUD
+
+Pensando em deixar este projeto mais "completo", decidi realizar um **CRUD** para o Sistema de Votação Eletrônica. Usei o VScode(Visual Studio Code) para implementar uma interface interativa usando **JavaScript**. OBS: Usei como auxílio a **CLAUDE IA** na criação deste CRUD.
+
+Como Executar e Testar:
+
+Certifique-se de ter o Node.js instalado.
+Clone este repositório.
+Instale o driver do banco de dados executando: npm install
+Configure a variável connectionString no arquivo app.js informando a URI de conexão do seu banco PostgreSQL.
+Inicie o painel interativo: node app.js
+
+### Demonstração do Fluxo do Sistema
+
+Ao iniciar a aplicação com o comando `node app.js`, o usuário tem acesso ao painel gerencial:
+
+```text
+====================================
+   SISTEMA ELEITORAL LOCALHOST      
+====================================
+1. [CREATE] Inserir Novo Candidato
+2. [READ]   Listar Candidatos (Com Partidos)
+3. [READ]   Ver Relatorio/Ranking de Votos
+4. [UPDATE] Atualizar Nome de Candidato
+5. [DELETE] Remover um Candidato
+6. Sair do Sistema
+====================================
+Escolha uma opcao (1-6):
+```
+Irei demonstrar como funciona a partir da criação de um candidato aleatório.
+
+<img width="1262" height="262" alt="image" src="https://github.com/user-attachments/assets/ab194527-7d25-402e-b1a2-331a33369dc3" />
+
+<img width="1245" height="294" alt="image" src="https://github.com/user-attachments/assets/cafa28f6-d579-4e31-ad4d-8142d45f4431" />
+
+<img width="1012" height="310" alt="image" src="https://github.com/user-attachments/assets/2508e633-9287-465c-be2e-3c3a24b667fa" />
+
+<img width="465" height="309" alt="image" src="https://github.com/user-attachments/assets/ae669f72-2699-4bfd-bf41-383e83c03d54" />
+
+<img width="973" height="904" alt="image" src="https://github.com/user-attachments/assets/48da2b91-9ee1-4c30-a7b9-fb4271843909" />
+
+<img width="621" height="336" alt="image" src="https://github.com/user-attachments/assets/b254d364-6f7b-44f2-8d76-f893b848b493" />
+
+<img width="964" height="474" alt="image" src="https://github.com/user-attachments/assets/c03291c6-828d-4c92-b80d-51c876b35bfb" />
+
+<img width="378" height="257" alt="image" src="https://github.com/user-attachments/assets/a5f9049b-3e11-4c74-888c-efe1814cbf17" />
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Banco de Dados de Origem:** MariaDB
+* **Banco de Dados Adaptado:** Supabase (PostgreSQL)
+* **Linguagem:** JavaScript
+* **Driver de Conexão:** `pg` (PostgreSQL Client)
+* **Interface CLI:** Módulo nativo `readline` para captura de dados em fluxo assíncrono.
+* **Ferramenta de IA:** Claude IA.
