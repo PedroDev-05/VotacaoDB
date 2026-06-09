@@ -198,6 +198,8 @@ Escolha uma opcao (1-6):
 ```
 Irei demonstrar como funciona a partir da criação de um candidato aleatório.
 
+---
+
 <img width="1262" height="262" alt="image" src="https://github.com/user-attachments/assets/ab194527-7d25-402e-b1a2-331a33369dc3" />
 
 
@@ -220,6 +222,8 @@ Irei demonstrar como funciona a partir da criação de um candidato aleatório.
 
 
 <img width="378" height="257" alt="image" src="https://github.com/user-attachments/assets/a5f9049b-3e11-4c74-888c-efe1814cbf17" />
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
